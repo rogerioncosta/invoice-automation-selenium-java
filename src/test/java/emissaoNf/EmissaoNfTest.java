@@ -30,6 +30,7 @@ public class EmissaoNfTest {
 
         String dbUsuario = dotenv.get("DB_USER");
         String dbSenha = dotenv.get("DB_PASSWORD");
+        String dbCnpjCliente = dotenv.get("DB_CNPJ_CLIENT");
 
         new LoginPage(driver)
                 .preencherUsuario(dbUsuario)
