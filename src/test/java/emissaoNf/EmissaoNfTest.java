@@ -39,7 +39,7 @@ public class EmissaoNfTest {
                 .fecharModalAviso()
                 .clicarParaPaginaListaNfs()
                 .clicarParaPaginaDeEmissaoDeNf()
-                .preencherCnpjCliente("60409075002953")
+                .preencherCnpjCliente(dbCnpjCliente)
                 .preencherCodigoServico("11")
                 .preencherValorUnitarioNf("38621,00")
                 .preencherQuantidadeServico("1")
